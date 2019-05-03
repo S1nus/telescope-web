@@ -1,0 +1,26 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  text-align: center;
+  background: #f2f6f8;
+}
+
+#srcImg {
+  position: absolute;
+  z-index: 1;
+}
+
+#viewer {
+  display: inline-block;
+  width: 320px;
+  height: 320px;
+  margin: 0 auto;
+  background: black;
+  position: relative;
+  box-shadow: 0 5px 50px #333
+}
+
+#trimapCanvas {
+  position: relative;
+  z-index: 2;
+}

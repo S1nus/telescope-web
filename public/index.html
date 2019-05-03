@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <title>Telescope Demo</title>
+</head>
+
+<body>
+  <div id="container">
+    <div id="viewer">
+      <img id="srcImg" src="images/image.png" alt="image of hair"/>
+      <canvas id="trimapCanvas" width="320" height="320"></canvas>
+    </div>
+    <br/>
+    <br/>
+    <button id="clearTrimap">Clear Trimap</button>
+    <button id="postButton">Telescope</button>
+    Line width :
+    <select id="lineSelect">
+      <option value="1">1</option>
+      <option value="3">3</option>
+      <option value="5">5</option>
+      <option value="7">7</option>
+      <option value="9" selected="selected">9</option>
+      <option value="11">11</option>
+      <option value="20">20</option>
+    </select>
+    Color :
+    <select id="colorSelect">
+      <option value="white" selected="selected">white (foreground)</option>
+      <option value="black">black (background)</option>
+      <option value="gray">gray (unknown)</option>
+    </select>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/index.js"></script>
+</body>
+
+</html>
